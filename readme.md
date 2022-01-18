@@ -41,6 +41,8 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 	--> Click on 'Next' --> Provide the Project Name-->Keep the Location of the 'Solution' as it is
 	--> CLick on 'Next' --> From the Dropdown select '.NET 5'
 	--> Click on Create
+- If a Solution Contains Multiple-Projects, then to run a spefic project from the solution 
+	--> Right-Click on the Project and select the 'Set as startup project'
 
 #===============================================================================================================
 # Project Structure
@@ -97,3 +99,41 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 				- Run the Project using 'F5' and that will enter into the Debug-Mode from the breakpoint line
 				- Using 'F11' to debug each line in source-code, inclusing the method call by jumping into the method
 				- OR If you want to skip the JUMP into the called method body, then use 'F10'
+# Creating Methods
+	- In a Program class, each method MUST be 'static'
+	- This method can have input and output parameters
+		- static [RETURN-TYPE] [METHOD-NAME](PAREMETERS)
+		{
+		    // METHOD-BODY
+		}
+		- PARAMETERS: They are called as 'Formal-Parameters'
+	- If a method is returning a value, them make sure that, the method has 'return' statement
+		- If there is if.. OR if...else... then these Block MUST have return statement
+		- OR If the if..else... block is processng data based on condition (if/else) then out of the if..else.. block return the data with return statement. 
+# C# Programming Strctures
+	- Conditional Staructrure
+		- if statement
+		- if...else statement
+		- nested if
+			- if...else...if
+		
+		- Switch Block
+			- switch(Parameter OR Value to be conditionally check)
+				- case [CONDITION]:	
+						{
+							// EXECUTION-BLOCK		
+						}
+				- .... multiple cases
+				- default:
+					// do something if non of the condition is satisfied		
+	- Condition Operators
+		- > , < , >=, <=, == (Comparision), != (Not-Equal)
+		- Logical Operators
+			- || OR
+			- && AND
+			- ! NOT
+
+# C# String
+	- Array of Characters
+		- Using '+' sign to Concat the String
+	- By default string is a class that has verious methods
