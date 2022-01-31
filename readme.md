@@ -132,8 +132,70 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 			- || OR
 			- && AND
 			- ! NOT
-
+	- Iterations	
+		- Loops used for reading the Data
+			- for..loop
+			- foreach
+			- while
+			- do..while
+		- These are index Based Loops
+			- StartIndex, Condition to stop/terminate, EndIndex
+	- Defining Methods parameters
+		- using the 'ref'
+			- it is a mechanim for passing parameter references of actual parameter to a method instead of actual parameter value
+			- Syntax
+				- int a=10,b=20
+				- pass the parameter
+					- Change(ref a, ref b);
+				- void Change(ref int x, ref int y) {}
+			- IMP: The declaration with 'ref' MUST be initialoized befor passing to method
+		- using the 'out'
+			- Like 'ref'
+			- The 'out' varianble need not be initialized before passing to the method
+			- Generally used when a method want to return more than a parameter (a single value) from a method
+				- Change(out a, out b);
+			- void Change(out int x, out int y) 
+			{
+				// set value for x and y and then process
+				// the processed value will be set to the actual parameter over its reference
+			}
+		- using the 'params' a mechanism of passing flexible number of parameters to a method
+			- Internally this will be treated as an 'Array' 
+			- The method MUST have 'params' as a last parameter to a method
+			- e.g.
+				- VALID Syntax
+					- Add(int a,int b, params int[]x){}
+				- INVALID Syntax
+					- Add(params int[]x,int z,int y){}
 # C# String
 	- Array of Characters
 		- Using '+' sign to Concat the String
 	- By default string is a class that has verious methods
+	- Interpolation or String Termplates
+		- Mechanism of String Concatination
+			- OLD: str1 + str2
+			- Interpolations: $"{str1} {str2}"
+				- Internally will invoke 'String.Format()'
+	- Techniacally
+		- A String is an Array of Characters
+# Using C# Data Structures
+	- An arrangement for stroing data in well-organized manner for efficient Read/Write
+		- Array
+			- The Most popular
+			- System.Array is a Class for defining an Array type
+			- Syntax
+				- DataType [] Identifier;
+				- By Default an array identifier is an instance of array class 
+				- THis will provides various methods to work with array 
+		- Collections
+			- A preferred way of storing data in memory
+			- This need not to be set with UpperSize by default
+			- We can keep on adding data in it
+			- IMP: Each entry in collection is stored as 'an object'
+			- System.Collections is a namespace having collection classes 
+				- ArrayList, LinkedList, Stack, Queue, etc.
+			
+		- Generics
+	- Special Data Structure declarations
+		- Tuples (C# 7.0)
+		- Records (C# 9.0)

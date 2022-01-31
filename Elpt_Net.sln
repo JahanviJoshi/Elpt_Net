@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9AAEB758-97A4-4D94-B4AE-F080DD340F84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9AAEB758-97A4-4D94-B4AE-F080DD340F84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C36852D9-6D58-4628-82B0-7DD7E60747D1}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,11 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Methods", "CS_Methods\CS_Methods.csproj", "{0E796075-DA30-4A98-80F1-8659BE37AE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Methods", "CS_Methods\CS_Methods.csproj", "{0E796075-DA30-4A98-80F1-8659BE37AE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_If_Condition", "CS_If_Condition\CS_If_Condition.csproj", "{5D079BB7-C353-401D-A622-40DE5878D6F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_If_Condition", "CS_If_Condition\CS_If_Condition.csproj", "{5D079BB7-C353-401D-A622-40DE5878D6F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Strings", "CS_Strings\CS_Strings.csproj", "{35DB5C9C-A65B-49F5-A592-0D3EF5C5F75D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Strings", "CS_Strings\CS_Strings.csproj", "{35DB5C9C-A65B-49F5-A592-0D3EF5C5F75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Loops", "CS_Loops\CS_Loops.csproj", "{74172CDB-EAAC-4AD3-A2BA-1AA62ED6E4C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Parameters", "CS_Parameters\CS_Parameters.csproj", "{AECEAEE3-2209-4658-999B-5919F06E23B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Array", "CS_Array\CS_Array.csproj", "{EAB2C52B-A2F8-4C39-BD1B-EE8EC8683BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Collections", "CS_Collections\CS_Collections.csproj", "{A11A8558-B8CC-470B-963D-A8455F03E6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{35DB5C9C-A65B-49F5-A592-0D3EF5C5F75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35DB5C9C-A65B-49F5-A592-0D3EF5C5F75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35DB5C9C-A65B-49F5-A592-0D3EF5C5F75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74172CDB-EAAC-4AD3-A2BA-1AA62ED6E4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74172CDB-EAAC-4AD3-A2BA-1AA62ED6E4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74172CDB-EAAC-4AD3-A2BA-1AA62ED6E4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74172CDB-EAAC-4AD3-A2BA-1AA62ED6E4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECEAEE3-2209-4658-999B-5919F06E23B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECEAEE3-2209-4658-999B-5919F06E23B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECEAEE3-2209-4658-999B-5919F06E23B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECEAEE3-2209-4658-999B-5919F06E23B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB2C52B-A2F8-4C39-BD1B-EE8EC8683BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB2C52B-A2F8-4C39-BD1B-EE8EC8683BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB2C52B-A2F8-4C39-BD1B-EE8EC8683BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB2C52B-A2F8-4C39-BD1B-EE8EC8683BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11A8558-B8CC-470B-963D-A8455F03E6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11A8558-B8CC-470B-963D-A8455F03E6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11A8558-B8CC-470B-963D-A8455F03E6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11A8558-B8CC-470B-963D-A8455F03E6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

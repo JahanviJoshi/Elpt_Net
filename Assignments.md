@@ -23,3 +23,28 @@
 
 4. Self-Study
 	- Learn the Math class and try out the Trignometric methods
+
+# Date: 31-Jan-2022
+5. Using the Following String
+	"James Bond is a fictional character created by novelist Ian Fleming in 1953. A British secret agent working for MI6 under the codename 007, he has been portrayed on film by actors Sean Connery, David Niven, George Lazenby, Roger Moore, Timothy Dalton, Pierce Brosnan and Daniel Craig in twenty-seven productions. All but two films were made by Eon Productions, which now holds the adaptation rights to all of Fleming's Bond novels.[1][2]
+
+In 1961, producers Albert R. Broccoli and Harry Saltzman purchased the filming rights to Fleming's novels.[3] They founded Eon Productions and, with financial backing by United Artists, produced Dr. No, directed by Terence Young and featuring Connery as Bond.[4] Following its release in 1962, Broccoli and Saltzman created the holding company Danjaq to ensure future productions in the James Bond film series.[5] The series currently has twenty-five films, with the most recent, No Time to Die, released in September 2021. With a combined gross of nearly $7 billion to date, it is the fifth-highest-grossing film series.[6] Accounting for inflation, it has earned over $14 billion at current prices.[a] The films have won five Academy Awards: for Sound Effects (now Sound Editing) in Goldfinger (at the 37th Awards), to John Stears for Visual Effects in Thunderball (at the 38th Awards), to Per Hallberg and Karen Baker Landers for Sound Editing, to Adele and Paul Epworth for Original Song in Skyfall (at the 85th Awards) and to Sam Smith and Jimmy Napes for Original Song in Spectre (at the 88th Awards). Several of the songs produced for the films have been nominated for Academy Awards for Original Song, including Paul McCartney's "Live and Let Die", Carly Simon's "Nobody Does It Better" and Sheena Easton's "For Your Eyes Only". In 1982 Albert R. Broccoli received the Irving G. Thalberg Memorial Award.[8]"
+
+- Perform Following Operations on the string. Use 'switch..case' constructs
+	1. Find out number of 'Blank Spaces' in the string
+	2. Find out nunmber of 'Words'
+	3. Find out number of '.'
+	4. Find out number of statements
+	5. Find out number of digits
+	6. Find out number of vowels (a,e,i,o,u)
+	7. Find out number of 'the', 'is', 'to', 'and' and their positions (indexes)
+	8. Find out number and positions of comma (,)
+	9. Reverse each word in string
+	10. Reverse entire string
+	11. Print each statement in separate line on console from the above string
+	12. Print all words decorated uasing "" e.g. "Live and Let Die"
+	13. Convert first character of each word in upper case.
+	15. List 'month names' from the above list e.g. January, February, etc.
+- Evaluation will be done based on following criterias
+	- Avoiding Code Repetation
+	- Using most suoitable and applicable string standard method that will avoid unnecessary code
