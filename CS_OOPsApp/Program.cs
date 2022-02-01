@@ -8,7 +8,10 @@ namespace CS_OOPsApp
     {
         static void Main(string[] args)
         {
-            EmployeeOpeartions operation = new EmployeeOpeartions();
+            // reference
+            EmployeeOpeartions operation = null;
+            // instance creation (aka Object definition)
+             operation = new EmployeeOpeartions();
             List<Employee> employees = new List<Employee>();
 
             Employee emp = AcceptEmployeeData();
