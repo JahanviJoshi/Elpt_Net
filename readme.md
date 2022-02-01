@@ -196,6 +196,115 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 				- ArrayList, LinkedList, Stack, Queue, etc.
 			
 		- Generics
+			- Data Structure Templates
+				- A predefined arrangement for Storing data which is common for all data types
+			- USed to store data of 'SAME-TYPE' in the Collections in the memory w/o boxing 
+			- System.Collectrions.Generic
+				- List<T>
+				- ArrayList<T>
+				- Stack<T>
+				- Queue<T>
+				- ..... and many more
+			- The 'T' is a Template Parameter aka Type Parameter that will be stored in the Data Structure
+				- If 'T' is 'int' then the data structure will have data only oif the type integer
+				- E.g. List<int> will create a List of Integers, List<string> will have only strings 
+				- T can be any CTS type
+					- Primitive Types
+					- Custom CLR types
+						- Classes
+						- Methods
+						- Interfaces
+						- Events
+						- Delegates
+			- Once the 'T' is set to the specific type e.g. int or string, a seperate copy of the same generic type will be created into the memory in Binary Format
+			- Mukti-Type Generics
+				- The Data Structure used for Multiple-Type Parameters
+				- MyClass<U,V>
+					- Typically used for storing Key/Value pair
+
+
+# Object Oriented Programming (OOPs) with C#	
+	- Class
+		- Access Specifiers, used to define the scope for accessing, class and its members
+			- public, private, protected
+			- internal, protected internal
+		- Access Modifiers, they are used to define access behavior of the class and its members 
+			- static, abstract, virtual, sealed
+		- Inheritance
+		- Polymorphism
+	- Interface
+
+	- Class is an encapsulation for
+		- Data Members 
+			- They are the properties used to store data for the class
+			- This is an Abstraction for the data 
+		- Members Methods (functions)
+			- They are the behaviors on the data members to process them
+			- Methods will define logic for processing
+			- Class with encapsulate Logic and its processed outoput will be returned to other method within class and/or outside of the class 
+		- Instance
+			- Real-Word representation of the class
+			- The Memory for class will be allocated when an instance is created
+			- The instance contains 'defaults' for data members
+				- e.g. for 'int' data member the defaultr will be 0 or the value set bt during declaration
+			- The class will be in action (in-use) is possible only after an instance is created, otherwise the application will crash
+		- Access Specifiers in .NET for C#
+			- public
+				- Members is accessible within and outisde the class
+			- private
+				- Members are accessible only within the class
+				- Default to all members of the class
+			- protected
+				- Members are accessible within class and in derived class
+			- internal
+				- Members are accessible with the containing namespace. The namespace in which class is declared
+				- Default to class 
+			- protected internal
+				- Members are accessible within the class, in the derived class of same namespace and derived class of other namespace
+		- The 'this' concept
+			- All Class members are accessed within the class using the 'this' object
+			- The 'this' is the class scope (instance) itself within the class
+		- Class Members
+			- Variable
+			- Methods
+			- Constructor
+			- Properties
+				- Get/Set properties
+				- They are public method blocks to Read (Get) and Write (Set) values for private members of the class
+			- Event
+	- To make sure that the method for class work or executes successfully, handle exception
+		- The 'exception' is a mechanism using which 'SOME MEANINGFUL' result is returned or provided to the called when an execution is failed because of 'SOME UNCERTAINANITY'
+		- Syntax:
+			- try {..... THE CODE TO BE EXECUTED.....} catch(Exception ex){...THE CODE TO BE  EXECUTED IF CODE IN TRY IS FAILED TO EXECUTE.........} finally {.....THE CODE THAT WILL ALWAYS BE EXECUTED IRRESPECTIVE OF try BLOCK OR catch BLOCK............}
+			- try 
+			{
+			   .......
+			}
+			catch(Exception ex) 
+			{
+				..........
+			}
+			finally
+			{
+			  ........
+			}
+		- The 'Exception', the Top-most class for all Exceptions
+			- The 'Message' proeprty will contain the Error Detail occured during an execution of 'try' block 
+		- To Throw and handle exception conditinally, use the 'throw' keyword
+			- if(CONDITION)
+			{
+			   throw new Exception("MESSAGE");
+			}
+			- The thrown excpetion is also habdled by 'catch' block 
+
+
+
+
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
 		- Records (C# 9.0)
+- To view an Assembly with IL and MetaInfo use 'Ildasm.exe' tool
+	- Intermidiate Language Dis-Asssembler
+	- This tool will be installed as Microsfot SDK in Windows OS
+		- C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+- The foreach..loop can be used only for those types who implements IEnumerable Interface

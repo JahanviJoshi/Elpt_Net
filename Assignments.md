@@ -48,3 +48,38 @@ In 1961, producers Albert R. Broccoli and Harry Saltzman purchased the filming r
 - Evaluation will be done based on following criterias
 	- Avoiding Code Repetation
 	- Using most suoitable and applicable string standard method that will avoid unnecessary code
+
+
+# Date: 01-Feb-2022 (a Mini Project Final Date of Submission is 04-Feb-2022 (Friday))
+
+1. Modify the EmployeeOperations class with Following Method
+	- UpdateEmployee(EmpNo, Employee)
+		- Search Employee By EmpNo, if Employee not found then throw Employee Not Found Exception, else Update the existing Employee from the List based on the Employee object passed to the method	  
+	- DeleteEmployee(EmpNo)
+		- Search Employee By EmpNo, if Employee not found then throw Employee Not Found Exception, else Delete the existing Employee from the List
+	- While Storing Employee Create a Seperate Dictionary to Store Employee by DeptName
+	- Add a method to List Employees by DeptName
+	- Add a method to List Employees by Designation
+	- Write a method to Validate Employee before Add and Update based on following  Rules
+		- EmpNo
+			- Must be Positive Integer
+			- Must not be repeated
+		- EmpName
+			- Must start from Uppercase Charachetr
+			- Can have Blank Spaces but not Number and special Characters
+			- Note: Use Regular Express (Search on Regx class (Self-Study))
+		- DeptName can be any of the following
+			- IT, HRD, Sales, Admin, Account
+		- Designation Can be any of the following
+			- Manager, Engineer, Clerk, Staff
+		- Salary MUST be positive Integer	
+2. Add a new class known as 'Client' that will be used by Main() method to perform Employee operations
+	- The Main() method will not directly access Employee and EmployeeOperations classes 
+	- The Client class Must contain method for
+		- AddEmployee()
+			- Access Method AddEmployee() from the EmployeeOperations
+		- UpdateEmployee()
+		- DeleteEmployee()
+		- SearchEmployee()
+3. All Operations on Employee will be done using Swich...case statements 
+			
