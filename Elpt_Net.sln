@@ -25,15 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Array", "CS_Array\CS_Arr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Collections", "CS_Collections\CS_Collections.csproj", "{A11A8558-B8CC-470B-963D-A8455F03E6E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Generics", "CS_Generics\CS_Generics.csproj", "{792820D7-E295-4F8C-9FDD-6EA3057B9C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Generics", "CS_Generics\CS_Generics.csproj", "{792820D7-E295-4F8C-9FDD-6EA3057B9C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_GenericStack", "CS_GenericStack\CS_GenericStack.csproj", "{83BDDE0B-896C-46C9-B704-A5B2444268A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_GenericStack", "CS_GenericStack\CS_GenericStack.csproj", "{83BDDE0B-896C-46C9-B704-A5B2444268A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_MultiTypeGenerics", "CS_MultiTypeGenerics\CS_MultiTypeGenerics.csproj", "{7522FA66-DF9C-4E18-9E19-54A222E11E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_MultiTypeGenerics", "CS_MultiTypeGenerics\CS_MultiTypeGenerics.csproj", "{7522FA66-DF9C-4E18-9E19-54A222E11E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_BasicOOPs", "CS_BasicOOPs\CS_BasicOOPs.csproj", "{74DA19D1-582E-409A-A6F3-BC4404771AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_BasicOOPs", "CS_BasicOOPs\CS_BasicOOPs.csproj", "{74DA19D1-582E-409A-A6F3-BC4404771AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_OOPsApp", "CS_OOPsApp\CS_OOPsApp.csproj", "{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_OOPsApp", "CS_OOPsApp\CS_OOPsApp.csproj", "{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_AutoProperties", "CS_AutoProperties\CS_AutoProperties.csproj", "{7315E812-260D-4589-954D-FDCE752AADED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Inheritance", "CS_Inheritance\CS_Inheritance.csproj", "{8BEA39C0-4A47-4488-8E23-DC22BED3C788}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7315E812-260D-4589-954D-FDCE752AADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7315E812-260D-4589-954D-FDCE752AADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7315E812-260D-4589-954D-FDCE752AADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7315E812-260D-4589-954D-FDCE752AADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

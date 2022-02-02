@@ -82,4 +82,22 @@ In 1961, producers Albert R. Broccoli and Harry Saltzman purchased the filming r
 		- DeleteEmployee()
 		- SearchEmployee()
 3. All Operations on Employee will be done using Swich...case statements 
-			
+		
+# Date: 02-Feb-2022
+1. Can overloading is possible by having same method name with same number and order of parameters but different in return type?
+2. Can we override the private virtual method of abstract class using public method from the deriuved class?
+3. Can we have private and protected abstract and virtual methods in abstract base class?
+4. Can we have method overloading across base and deried classe?
+5. Can we type cast the derived class instance using the base class? 
+6. Can we have public property in abstract base class?
+7. Can we have same property in base and derived class?
+8. Can we derive a public class from internal class?
+9. Can we have internal virtual or abstract methods in abstract class?
+10. Can we have private or protect class?
+11. Can we have internal property?
+12. Can we have virtual method in not-abstract class?
+13. Can we have abstract method in not-abstract class?
+14. What will happen if the derive class dows not override all abstract methods of the abstract class?
+15. Can we have virtual and/or abstract methods in sealed class
+16. Can we have sealed access modifier for method?
+ 

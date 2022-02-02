@@ -296,8 +296,62 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 			   throw new Exception("MESSAGE");
 			}
 			- The thrown excpetion is also habdled by 'catch' block 
+- Class definition Strategies
+	- Class used only for Storing Data for Read/Write Operations MUST have only 'public properties'
+		- These classes as known as Data Clases aka Entities
+		- Public properties are used for Performing Read/Write operations on Private Data Members
+		- Auto-Implemented Properties introduced in C# 3.0
+			- Access_Specifier ReturnType PROEPRTY-NAME {get;set;}
+			- The private member aka 'BAcking-Field' will be defined by CLS
+	- If the class used to define Business Logic aka Domain Logic then it will contian methods with required Access Specifiers 
+	- Guidelines for Class Creation
+		- Start Design using Abstract class
+			- Design Standard that will be followed by add Class Derivations aka Inheritance	
+			- Use Inheritance when a specific-type of logical funcationality is to be implemented for the application
+				- e.g. Employee Management System
+					- Employee Base Class can have following derivations
+						- FullTime, Base Type
+							- Manager
+							- Engineer
+							- Clerk
+						- Consultant
+						- DailyWages
+			- The Inheritance provided Following Features in Application Development
+				- Uses the Base Type Public/Protected Properties as-it-is
+				- The Derived Type can additionaly add extra properties and behavior
+					- AKA 'Decorattion'
+		- (Observation)
+			- Since the 'Object' is highest-level DataType in .NET, each type 'is of the type object' and then it has an access to public methods of the 'Object' class
+			- No Multiple Inheritence allowed in .NET 
+				- No Multiple Parents are allowed for the class
+			- Using the 'base' keyword, the 'protected' member of the base class can be accessbile in derived class
+			- Within the namespace the 'internal' member of the class is accessible
 
+		- (Critical Observations)
 
+			- Overloading: Having Multiple methods  with same name but differnt in any of the following in Same class or Base and derived classes
+				- Number of Parameters
+				- Type of parameters
+				- Order of Parameters
+			- What if the Base class and Derived class has 'Same method name with Same Signeture'? 
+
+				- If a System has multiple classes with common functionalities in more than two classes then add the common functionality in base classs and extend the base classs by derived classes
+
+					- If the Base class is a Template Functionality for all derived classes, then we need not to instantiate it, so make it as 'abstract' class using 'abstract' access modifier.
+
+				- If any of the derive class wants to extend a behavior of the base class method, then make sure that the base class method must be set the access modifier as 'virtual'.
+
+				- METHOD OVERRIDING (Polymorphism)
+					- The class that wants to extend the method will override it using 'override' access modifier on the method of the derived class and write new implementation for it.
+				- If the all derive classes wants to define complete 'new implementation' for the matching method of the abstract base class, then do not provide any implementation for the method of abstract base class, just make the method as 'abstract' method 
+					- all derive classed MUST OVERRIDE all abstract method of the basse class else make the derive class as 'abstract'
+			
+				- METHOD SHADOWING (Polymorphism)
+					- What if the derived class does not want to override the method of the base class but instead, wants to define a complete new implementation to method from the derive class?  
+						- Use the Method Shadowing by using 'new' access modifier definition for the method of the derived class
+		- The Sealed class
+			- The class that cannot be inherited
+			- Use the 'sealed' access modifier
 
 
 	- Special Data Structure declarations

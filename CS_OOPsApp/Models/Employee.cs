@@ -21,8 +21,8 @@ namespace CS_OOPsApp.Models
         private string _EmpName;
         public string EmpName
         {
-            get { return _EmpName; }
-            set { _EmpName = value; }
+            get { return _EmpName; } // return value
+            set { _EmpName = value; } // accept value
         }
         private string _DeptName;
         public string DeptName
