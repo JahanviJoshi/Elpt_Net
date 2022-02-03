@@ -352,6 +352,28 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 		- The Sealed class
 			- The class that cannot be inherited
 			- Use the 'sealed' access modifier
+- Interfaces	
+	- it is a type in ,NET programming that is used for following
+		- Establish Communication across the Objects Horizontaly
+		- It contains method definition that can be inplemented by each class with their own requirements of the logic
+			- Like Abstract Methods of Abstract class
+	- Abstract Class Vs Intercace
+		- Abstract class is mainly used to define Implementation standard within a namespace for all classed deribed from Abstract class
+		- Verticle search or instance casting is fastest in a namespace while using Abstract classs
+		- Interfaces are more useful to establish horizontaal communication between objects in Inter-system communication
+		- Interfaces does not have any metho implementation (by default) (NOTE: Provided from C# 8.0)
+		- Rule: When a class implement an interface, all methods of the interface MUST be implemented by the class
+		- A Class can implement Multiple interfaces be can have only one parent/Base class
+		- (IMP***)An interface can be Implicitely Implemenetd or Explicitely implemented by a class 
+			- A Polymorphism using interface
+	- Implicit Implementation Vs Explicit Implementation
+		- Implicit Implementation: The class is Owner of methods from Interface. All methods are accessed using an instance of the class as well as using the Interface Reference 
+		- Explicit Implementation
+			- Although methods from interface are physically implemented by class still those methods are owned by the intarface
+			- These methods are accessed using Interface Reference of which instance is created by the class
+	- Facts or Observations
+		- One class can implement Multiple Interfaces
+		- If these interfaces are having same signeture with same name then the class MUST implement them Explicitely
 
 
 	- Special Data Structure declarations

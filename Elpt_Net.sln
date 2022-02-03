@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_BasicOOPs", "CS_BasicOOP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_OOPsApp", "CS_OOPsApp\CS_OOPsApp.csproj", "{3A098F4E-FAC7-42B0-B7CE-CDFF1A05320C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_AutoProperties", "CS_AutoProperties\CS_AutoProperties.csproj", "{7315E812-260D-4589-954D-FDCE752AADED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_AutoProperties", "CS_AutoProperties\CS_AutoProperties.csproj", "{7315E812-260D-4589-954D-FDCE752AADED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Inheritance", "CS_Inheritance\CS_Inheritance.csproj", "{8BEA39C0-4A47-4488-8E23-DC22BED3C788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Inheritance", "CS_Inheritance\CS_Inheritance.csproj", "{8BEA39C0-4A47-4488-8E23-DC22BED3C788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Interface", "CS_Interface\CS_Interface.csproj", "{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BEA39C0-4A47-4488-8E23-DC22BED3C788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

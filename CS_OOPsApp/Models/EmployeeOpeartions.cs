@@ -28,5 +28,13 @@ namespace CS_OOPsApp.Models
             return Employees;
         }
 
+        public List<Employee> UpdateEmployee(int eno, Employee emp)
+        {
+            // use foreach loop to search employee
+            // If not found throw exception
+            // Else Updated searche employee by the emp object 
+            return Employees;
+        }
+
     }
 }
