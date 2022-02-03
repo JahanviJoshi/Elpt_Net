@@ -41,6 +41,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Inheritance", "CS_Inheri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Interface", "CS_Interface\CS_Interface.csproj", "{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_BasicDelegate", "CS_BasicDelegate\CS_BasicDelegate.csproj", "{1A4CE2A4-6971-42BF-A9A2-10A397E1853B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_AnonymousMethod_Lamdba", "CS_AnonymousMethod_Lamdba\CS_AnonymousMethod_Lamdba.csproj", "{59EF9583-A80E-405C-8296-207162E79A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FD1D12-533A-4A4F-93D9-42D243C16CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4CE2A4-6971-42BF-A9A2-10A397E1853B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4CE2A4-6971-42BF-A9A2-10A397E1853B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4CE2A4-6971-42BF-A9A2-10A397E1853B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4CE2A4-6971-42BF-A9A2-10A397E1853B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EF9583-A80E-405C-8296-207162E79A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EF9583-A80E-405C-8296-207162E79A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EF9583-A80E-405C-8296-207162E79A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EF9583-A80E-405C-8296-207162E79A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

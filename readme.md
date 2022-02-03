@@ -374,7 +374,60 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 	- Facts or Observations
 		- One class can implement Multiple Interfaces
 		- If these interfaces are having same signeture with same name then the class MUST implement them Explicitely
+		- Interfaces are not for "MULTIPLE INHERITANCE"
+# Using the Delegates and Events
+	- Delegate
+		- A .NET Type that is used to invoke a method with its reference and execute it (Fresher's Definition')
+			- Same as Pointer-to-function in C,C++
+		- The 'System.Delegate' is type in CTS and the keyword is 'delegate'
+		- To execute a method using delegate the signeture of the method MUST match with Signeture of the delegate
+		- Define a Delegate at Namespace level sothat it can be used by all Classes under the namespace
+	- Observations on Delegates
+		- Since a Delegate contains the Method reference, we can directly pass the method implementation to the delegate without creating any 'Named-Method'
+			- Anonymous Method in C# 2.0
+				- The Implementations passed to delegate will be directly converted into Binary and executed (Better for performance)
+				- E.g.
+					- handler = delegate (int x, int y) { return x + y; };
+					- Operand Tree
+						- x,y
+					- Operator Tree
+						- +
+					- Expression Tree for Evaluation in Binary Form
+						- x + y
+		- What if there exists a Method that accepts an input parameter as Delegate?
+			- e.g.
+				- void Process(ProcessHandler handler){......}
+			- C# 2.0 To Such Method we can pass the delegate that has anonymous method implementation
+				- e.g.
+					- handler = delegate (int x, int y) { return x + y; };
+					- Process(handler);
+			- C# 2.0 To Such Method we can direcly pass the Anonymous Method  
+				- e.g.	
+					-   Process(delegate (int a,int b) { return a * b; });
+			- C# 3.0 To Such method we can pass a very simple syntax as 'Lambda Expression'
+				- e.g.
+					- Process((int x,int y) => { return x * x * y * y; });
+					- The Entire Lambda Expreassion will be directly Compiled and executed into Binary(Best for Perfromance) 
+			- NOTE****
+				- If a method accepts delegate as input parameter then to that method we can pass Lambda Expression
 
+		- Used for establishing communication across Objects (Advanced-Definition)
+		- Used for defining an Event to establish Communciation across objects (Advanced-Definition)
+			- The Event is used for 'Actoin-Based-Programming'
+			- Some Action Has to take place so that a Notification is generated (aka Event)
+			- An Event is a Special Type of Delegate, that is Raised when an action is taken place that will trigger and event to notify 
+			- The delegate that is used to define an event MUST have a return type as 'void'
+		- Next Level
+			- Used for Threading in .NET
+			- Used for Asynchronous Programming in .NET
+# C# 3.0
+	- All Chganges are done by Microsoft for Supporting Language Integrated Query aka LINQ
+		- The 'var' declaration
+		- Auto-Implemented properties
+		- Lambda Expression
+		- Extension Methods
+		- Object and Collection Initializers
+		- Expression Tree
 
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
