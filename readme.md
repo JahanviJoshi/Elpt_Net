@@ -417,6 +417,13 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 			- Some Action Has to take place so that a Notification is generated (aka Event)
 			- An Event is a Special Type of Delegate, that is Raised when an action is taken place that will trigger and event to notify 
 			- The delegate that is used to define an event MUST have a return type as 'void'
+
+		- Steps for Working with Events
+			- Define a delegate that has return type as 'void'
+			- Define event using the delegate inside the class (Logic / Domain class) that will be generating notifications
+			- Define a NotificationListener class, this class will be responsible for listening to events raised by the domain class
+			- Client class that will call the domain class for transactions as well as will subscribe to the Notification Listener class so that the Notifcations are received
+
 		- Next Level
 			- Used for Threading in .NET
 			- Used for Asynchronous Programming in .NET
