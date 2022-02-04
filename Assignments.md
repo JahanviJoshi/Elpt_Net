@@ -100,4 +100,16 @@ In 1961, producers Albert R. Broccoli and Harry Saltzman purchased the filming r
 14. What will happen if the derive class dows not override all abstract methods of the abstract class?
 15. Can we have virtual and/or abstract methods in sealed class
 16. Can we have sealed access modifier for method?
+
+# Date: 04-Feb-2022
+
+1. Add following methods in the Standard Math class as extension methods
+	- GetPower(int x,int y); 
+		- Must return x raised to y
+	- Factorialofn(int n)
+		- Must return factorial of n
+	- CubeRootn(int n)
+		- Must return Cube root of n
+2. Chek if we can have 'static' constructor in class, if yes tehn how many times it is executed?
+
  

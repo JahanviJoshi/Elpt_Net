@@ -430,9 +430,37 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 # C# 3.0
 	- All Chganges are done by Microsoft for Supporting Language Integrated Query aka LINQ
 		- The 'var' declaration
+			- used for defining Local variables in a method
+			- the 'var' must be initialized
+			- the typof of var declaration will be set based on the Left-Hand-Side initial value
+			- one the 'var' declaration is initialized, we cannot assign differnt type parameter to it
 		- Auto-Implemented properties
 		- Lambda Expression
 		- Extension Methods
+			- They are an extended funcationalities added into the 'Standard CLR classes' as well as 'Custom Defined Sealed classes' without inheritance or modifiying the code of existing class 
+			- Advantages
+				- We can easily add an enhanced fucntionality as per the requirements in an existing class
+				- No derivation is needed
+				- No code changes are required
+				- Improve speed of application development by adding new functionality in an existing application without stopping the existing 'under-use' application
+			- Rules
+				- The class that contains extension methods MUST be 'static'
+				- The method to be used as ecxtension method MUST ne  'static'
+				- The first parameter of this method MUST be 'this' referred reference of the 'class' or 'interface' for which we are adding the current method as extension method
+				- e.g.
+					- the sealed class as
+						- public sealed class MyClass{.......}
+					- Writing an extension method
+						public static class MyExtension 
+						{
+							public static void MyExtensionMethod(this MyClass obj, int x,int y,....  )
+							{
+							
+							}
+						}
+					- We can access the MyExtensionMethod() using an instance of the MyClass class
+						- MyClass obj = new MyClass();
+						- obj.MyExtensionMethod(x,y,....);
 		- Object and Collection Initializers
 		- Expression Tree
 
