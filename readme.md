@@ -463,6 +463,15 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 						- obj.MyExtensionMethod(x,y,....);
 		- Object and Collection Initializers
 		- Expression Tree
+# Application Development
+	- While defining a  generic class with generaic type parameter, make sure that the generic type parameter has 'type constraints'
+		- Means the Generic Type parameter will be alowys of that type
+		- e.g.
+			- class GenericStack<T> where T : class
+			{}
+			- using 'where', we are informing to the coompiler that T will always be a class-type
+	- While creating a generic interface for CRUD Operations, make sure that, for reading all records, instead of using a specific collection(or generic) type use a interface implemented by all collection(or generic) type
+
 
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)

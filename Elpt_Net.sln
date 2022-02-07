@@ -47,9 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_AnonymousMethod_Lamdba",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Events", "CS_Events\CS_Events.csproj", "{90E9C1CA-C8F2-4662-956A-DC0DCE1FDBDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_Extension", "CS_Extension\CS_Extension.csproj", "{A401210C-9675-4331-B83B-78F2676BEB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_Extension", "CS_Extension\CS_Extension.csproj", "{A401210C-9675-4331-B83B-78F2676BEB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_var", "CS_var\CS_var.csproj", "{569C6B2B-A55B-4F4F-97B0-724D01F4BF03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_var", "CS_var\CS_var.csproj", "{569C6B2B-A55B-4F4F-97B0-724D01F4BF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_AppDeveApproach", "CS_AppDeveApproach\CS_AppDeveApproach.csproj", "{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{569C6B2B-A55B-4F4F-97B0-724D01F4BF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569C6B2B-A55B-4F4F-97B0-724D01F4BF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569C6B2B-A55B-4F4F-97B0-724D01F4BF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
