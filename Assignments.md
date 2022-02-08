@@ -112,4 +112,8 @@ In 1961, producers Albert R. Broccoli and Harry Saltzman purchased the filming r
 		- Must return Cube root of n
 2. Chek if we can have 'static' constructor in class, if yes tehn how many times it is executed?
 
- 
+# Date: 08-Feb-2022
+
+1. Read about LINQ from docs.microsaoft.com
+	- Take, Skip, OrderBy, OrderByDesc, etc
+2. Read about Anonymous Type

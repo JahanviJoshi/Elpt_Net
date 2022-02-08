@@ -471,8 +471,34 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 			{}
 			- using 'where', we are informing to the coompiler that T will always be a class-type
 	- While creating a generic interface for CRUD Operations, make sure that, for reading all records, instead of using a specific collection(or generic) type use a interface implemented by all collection(or generic) type
-
-
+	- Conditional Serach
+		- Retrieving collections based on Complex Conditions
+		- Reorganize the collection into the groups, sort, reverse, take average, read position based data e.g. Take first 5 recodrs, skip first 4 records, etc.
+	- C#.30 from .NET Framework 3.5+, Language Integrated Query (LINQ)
+		- From .NET Frwk 3.5+, the Object and Data are accepted as "SAME Concepts" so they were queried using "Language Integrated Query" aka LINQ
+		- IMP*** Note
+			- In .NET Core Versions (.NET Core 1.x, 2.x, 3.x) and .NET 5,.NET 6, all LINQ methods are directly added in Collection Classes ro reducer the Memory-Utilization  and Process Space
+		- LINQ
+			- Newly define "extension methods" for Collection for performing following operations
+				- Search
+				- Rearrange
+				- Orders
+				- Groups
+				- Read Specific records
+				- .... and many more
+			- ExtensionMethod(Lambda-Expression-As-Input-Paramater)
+				- Standard Delegates
+					- Predicate<T>
+						- An Delegate Expression that will be  evaluated against an object to perform operations like filter, search, etc.
+							- e.g.
+								- collection.Where(e=>e.id ==100);
+									- e=>e.id ==100, Predicate, a Pattern expression that will be executed on the collection
+					- Func<T,U>
+						- A Delegate that executes a logic
+						- A logic that will be executed to re-arange the collection or process the collection
+						- collection.ExtensionMethod(e=> {state1;state2;state3;......})
+					- Action / Action<T>
+						- Hiding Method Implementation
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
 		- Records (C# 9.0)

@@ -56,5 +56,21 @@ namespace CS_Strings
             }
             return st;
         }
+
+        static void CheckCharacterCount(string str, char charToCheck, out int dotcount, out int statementCount, out int blankspaceCount, out int commacount)
+        {
+            // logic
+
+            dotcount = 100;
+            statementCount = 0;
+            blankspaceCount = 0;
+            commacount = 0;
+
+            
+        }
     }
+
+
+
+    
 }
