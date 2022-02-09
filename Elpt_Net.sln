@@ -53,11 +53,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_var", "CS_var\CS_var.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_AppDeveApproach", "CS_AppDeveApproach\CS_AppDeveApproach.csproj", "{5E1EC09E-5872-4C3C-90BD-A40B16120C4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_LINQ_Basics", "CS_LINQ_Basics\CS_LINQ_Basics.csproj", "{8B9CA8DA-BE31-4B81-851A-51A1602AFADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS_LINQ_Basics", "CS_LINQ_Basics\CS_LINQ_Basics.csproj", "{8B9CA8DA-BE31-4B81-851A-51A1602AFADA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_LINQ", "CS_NetFrwk_LINQ\CS_NetFrwk_LINQ.csproj", "{70C196F0-40B8-4C69-A4D4-2012668A3DE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_AllLINQ", "CS_NetFrwk_AllLINQ\CS_NetFrwk_AllLINQ.csproj", "{B2278B54-0F4C-48A8-A454-913D33C4113E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_Imperative_LINQ", "CS_NetFrwk_Imperative_LINQ\CS_NetFrwk_Imperative_LINQ.csproj", "{E0EC3753-3165-4AEE-97AF-3076D329642B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_AnonymousType", "CS_NetFrwk_AnonymousType\CS_NetFrwk_AnonymousType.csproj", "{42EFE01F-89FF-443D-A002-55B919E211C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_Misc", "CS_NetFrwk_Misc\CS_NetFrwk_Misc.csproj", "{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{B2278B54-0F4C-48A8-A454-913D33C4113E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2278B54-0F4C-48A8-A454-913D33C4113E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2278B54-0F4C-48A8-A454-913D33C4113E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EC3753-3165-4AEE-97AF-3076D329642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EC3753-3165-4AEE-97AF-3076D329642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EC3753-3165-4AEE-97AF-3076D329642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EC3753-3165-4AEE-97AF-3076D329642B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EFE01F-89FF-443D-A002-55B919E211C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EFE01F-89FF-443D-A002-55B919E211C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EFE01F-89FF-443D-A002-55B919E211C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EFE01F-89FF-443D-A002-55B919E211C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

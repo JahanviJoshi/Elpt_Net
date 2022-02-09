@@ -117,3 +117,40 @@ Complete Pending Assignments
 1. Read about LINQ from docs.microsaoft.com
 	- Take, Skip, OrderBy, OrderByDesc, etc
 2. Read about Anonymous Type
+
+# Date: 09-Feb-2022
+1. Create an Employee Collection with at least 50 Records with properties as
+	- EmpNo, EmpName, DeptName, Salary, Designation
+2. Perform Following Report Generation on the Employees Collection
+	- Print All Employees In Ascending Order of the EmpName
+	- Print All Employees Group by the DeptName, and also display Employee Count for each DeptName
+	- Find out Sum of Salary for Employess per DeptName
+	- Print Employee with Max Salary Per DeptName
+	- Print Employee with Min Salary Per DeptName
+	- Print Average Salary Per DeptName
+	- Print Employees by Designation Group
+	- Display All EMployees those are Managers, Directors only
+	- Print All EMployees Having Salary in Range 25000 to 75000
+	- Print Employee with Second MAx Salary Per DeptName
+	- Print Employee with Second Max Salary
+	- Calculate Tax for Each Employee as followa
+		- Salary from >=20K to <=40K is 0.05%
+		- Salary from >40K to <=60K is 0.1%
+		- Salary <20K is 0
+		- Salary >60K is 0.15%
+		- Print All these Salaries DeptName Wise
+3. Create a Department Collection with 10 Records as
+	- DeptNo, DeptName, Location, Capacity
+4. Modify the Employee Collection and use DeptNo instead of DeptName 
+	- List Employes as
+		- EmpNo, EmpName, Designation, DeptName, Location, Salary
+
+5. Self-Study
+	- Read about Following Operator Method
+		- Fisrt(), FirstOrDefault()
+		- Last(), LastOrDefault()
+		- Count()
+	- (Optional)
+		- GroupJoin()
+		- ToLookUp()
+		- OfType()

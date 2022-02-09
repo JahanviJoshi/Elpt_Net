@@ -499,6 +499,44 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 						- collection.ExtensionMethod(e=> {state1;state2;state3;......})
 					- Action / Action<T>
 						- Hiding Method Implementation
+			- The LINQ is targetted to all 'IEnumerable' types aka Collections (Including Generics)
+				- Target Object
+					- The IEnumerable Type that contains data as Records
+				- LINQ
+					- Query that contains Methods and Expressions those are executed on Target Object 
+				- Expression Tree
+					- It is a Parsing for Query that will take each method from LINQ along with the Lambda Expression passed to it
+					- The Expression will be Evaluated
+						- Operands
+						- Operators
+					- The Parsed Expression will be Processed on the Target Object
+				- Execution
+					- Each Record from the target object will be evaluated and put into the Resulat Memory
+						- Deferred Execution
+			- Declarative Query
+				- The LINQ uses extension Methods in Code
+			- Imperative Query
+				- Query Like Database Syntax with 'OPERATORS' those are mapped with Extension methods
+					- Select(), select operator
+					- Where(), where
+					- OrderBy(), orderby
+					- OrderByDescending(), orderby CONDITION desc
+					- GroupBy(), group NAME-OF-GROUP by COLIUMN into GROUPNAME
+				- e.g.
+					- var res = from e in employees
+                      select e
+					- employees is a targte object
+					- e is a renge variable, this is implicitely casted to a record type from the target object
+					- select this will be mapped with the exetsnion method
+				- Care to take while defining a Group
+					- Create a Temporary Type or Object in memory to store the group information
+						- new {};
+							- C# 3.0 Anonymous Type, a class without any name created at runtime by CLR
+				- LINQ Operator Methods
+					- Sum(), Max(), Min(), Avg(), Count(), etc.
+				- Join
+					- A Mechanism to establish an association across 2 collections 
+						- Join() method
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
 		- Records (C# 9.0)
