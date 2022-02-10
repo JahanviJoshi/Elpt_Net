@@ -537,6 +537,41 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 				- Join
 					- A Mechanism to establish an association across 2 collections 
 						- Join() method
+			- LINQ to XML aka XLinq
+			- LINQ to Database (SQL) aka DLinq 
+# File Streams aka File I/O
+	- System.IO Namespace
+		- Stream a Base class
+			- A Stream is an approach where data is well organized from its first byte to the last byte
+			- There is a Read/Write Operation Possibility on Stream
+			- The best mechanism for data exchange across apps using
+				- Inter Process Communication (IPC)
+				- Binary Format across Machines using TCP/IP
+				- In Text Format on Internet or Wide-Area-Network using Http/Https
+		- Following are derivations from Stream class
+			- FileStream
+				- Used to Create, Write, Read Files
+			- MemoryStream
+				- Pure Binary Data stored in memory for Communication across Processes 
+			- NetworkStream
+				- Pure Binary Data that will be used for communication across Processes on one Machine or across mechines using Communication Protocol 
+		- StreamReader and StreamWriter
+			- Used to Read/Write Stream
+				- TextReader and TextWriter
+				- BinaryReader and BinaryWriter
+		- File (All Methods are Static)
+			- The class that directly interactes with OS for File I/O Operations
+				- Create, Read, Write, Append
+				- Copy, Move, Delete, Rename
+		- Directory (All Methods are Static)
+			- The class that directly interactes with OS for File Volumns (C:\, D:\)
+				- Used create and Manageg Directories
+		- FileInfo
+			- Instance class for File Operations
+			- Provides File Information like Name, Size, Extension, Path, etc.
+		- DirectoryInfo
+			- Instance class for Directory Operations
+			- Provides Directory Information like Name, Size, Path, etc.
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
 		- Records (C# 9.0)
