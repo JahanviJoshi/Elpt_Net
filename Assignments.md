@@ -133,8 +133,8 @@ Complete Pending Assignments
 	- Print All EMployees Having Salary in Range 25000 to 75000
 	- Print Employee with Second MAx Salary Per DeptName
 	- Print Employee with Second Max Salary
-	- Calculate Tax for Each Employee as followa
-		- Salary from >=20K to <=40K is 0.05%
+	- Calculate Tax for Each Employee as followas
+	- Salary from >=20K to <=40K is 0.05%
 		- Salary from >40K to <=60K is 0.1%
 		- Salary <20K is 0
 		- Salary >60K is 0.15%
@@ -154,3 +154,51 @@ Complete Pending Assignments
 		- GroupJoin()
 		- ToLookUp()
 		- OfType()
+
+
+# Date: 10-Feb-2022 (Submission:18-Feb-2022)
+
+1. Use the Employee Class of Assignment on Date:09-Feb-2022 for Calculting Salary of each employee based on the following Rules
+	- For Managers Calculate 
+		- HRA as 10% of Salary
+		- TS as 15% of Salary
+		- DA as 20% of Salary
+	- For Directors Calculate
+		- HRA as 20% of Salary
+		- TS as 30% of Salary
+		- DA as 40% of Salary
+	- Calculate Gross as 
+		- Salary + HRA + TA + DA
+	- Calculate Tax
+		- Gross 5 to >=10 Lacs per Annum is 20% of Gross
+		- Gross >10 to >=20 Lacs per Annum is 25% of Gross
+		- Gross>20 Lacs per Annum is 30% of Gross
+	- Calculate Net Salary as
+		- Gross - Tax
+2. Convert the NetSalary from Numeric to String as follows
+	- If NetSalary Per Month is 124450
+		- The Show it as One Lacs Twenty Four Thousand Four Hundred Fifty Only
+3. Create a Salary Slip for Each Employee into Separate File as 
+		- FileName Must be 'Salary-for-{Month}-{Year}-{EmpNo}.txt'
+		- e.g.
+			- Salary-for-Feb-2022-1001.txt
+	
+	------------------Salary Slip for Month of {MONTH-NAME}------------
+	| EmpNo: {EmpNo}		EmpName: {EmpName}	DeptName: {DeptName}  |
+	| Designation: {Designation}
+	|-----------------------------------------------------------------|
+	|Income (Rs.)					| Deduction (Rs.)				  |	
+	|-------------------------------|---------------------------------|
+	|Basic Salary:	{Salary}		|								  |
+	|HRA:			{HRA}			|								  |
+	|TA:			{TA}			|								  |
+	|DA:			{DA}			|								  |	
+	|-------------------------------|---------------------------------|
+	|Gross:			{Gross}			|								  |
+	|-------------------------------|---------------------------------|
+	|								|Tax:			{Tax}			  |
+	|-------------------------------|---------------------------------|
+	|NetSalary:		{NetSalary}		|								  |
+	|-----------------------------------------------------------------|
+	|NetSalary In Words:		{Net_Salary_In_Words}				  |
+	|-----------------------------------------------------------------|

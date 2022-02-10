@@ -551,6 +551,7 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 		- Following are derivations from Stream class
 			- FileStream
 				- Used to Create, Write, Read Files
+				- If the FileStream is used for Read/Write Operations in a single block (Pair of {}) e.g. Method, if..else statenment, then make sure that before starting second operation using the same FileStream instance, close the FileStream object aftre completing the first operation 
 			- MemoryStream
 				- Pure Binary Data stored in memory for Communication across Processes 
 			- NetworkStream
@@ -563,6 +564,7 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 			- The class that directly interactes with OS for File I/O Operations
 				- Create, Read, Write, Append
 				- Copy, Move, Delete, Rename
+			- We can use Universal Text Format aka UTF while Read/Write Operations (Text method for Read/Write are already available)
 		- Directory (All Methods are Static)
 			- The class that directly interactes with OS for File Volumns (C:\, D:\)
 				- Used create and Manageg Directories
