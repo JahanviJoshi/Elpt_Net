@@ -65,6 +65,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_AnonymousType", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_NetFrwk_Misc", "CS_NetFrwk_Misc\CS_NetFrwk_Misc.csproj", "{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileIOApps", "FileIOApps", "{86C5E3DF-5983-4694-BBC4-ED6BF10AA8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_UsingFile", "CS_UsingFile\CS_UsingFile.csproj", "{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,9 +187,16 @@ Global
 		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF9F7FB-5A3D-4B83-B66C-81CE389046DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DC83FD6-742F-4AB0-AFB4-7C3A974F7C99} = {86C5E3DF-5983-4694-BBC4-ED6BF10AA8C4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BEED080-7558-4636-9B32-78799C660785}
