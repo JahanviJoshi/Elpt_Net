@@ -574,6 +574,49 @@ Open Visual Studio 2019/2022 (Enterprise/Pro/Comminuty Edition)
 		- DirectoryInfo
 			- Instance class for Directory Operations
 			- Provides Directory Information like Name, Size, Path, etc.
+# Managed Code and Unmanaged Code
+	- All Code that is executed withing boundaries of CLR is called as Managed Code 
+		- e.g. User defined Classes, All Standard Classes provided in Framework Class Library those not crossing boundaries of CLR are called as Managed Resources Code
+			- e.g. if creating an Employee, Department class and its List collecctio, the CLR is capable enough to manage these classes , their instances and hence the scope 
+	- The code useing the Standard .NET Classes by if they are dependant on resources out-of-the boundary of the CLR they are called as UnManaged Resources, they are not purely managed by CLR
+		- e.g
+			- File Operations or Streams
+			- Database Connections
+			- Network or Protocol Resources
+			- Other Hardware Interactions e.g. Accessing Camera, Audio/Video Devices, GPRS, etc.
+# Serialization in .NET 
+	- The Process of maintaining the state of the object into a stream
+		- state, it is a schema and Values (aks data) of the object
+			- e.g. For Employee Object the State Will be
+				- Properties
+					- EmpNo, EmpName, DeptName, Salary, Designation
+				- Values
+					- 101, "Mahesh", "IT", 123345456, "Director"
+	- Formatter
+		- The Format in which data will be stored into the stream
+			- BinaryFormatter (All Versions of .NET)
+				- Serialize(Stream stream, Object obj)
+					- Write the 'obj' into 'stream'
+				- Object obj = Deserialize(Stream stream)
+					- Read an object state from 'stream' and stored in back into the 'obj'
+
+			- SoapFormatter (All Versions of .NET, not preferred)
+			- JsonFormatter (.NET Core 3.0+, fast)
+				- System.Text.Json
+					- JsonSerializer
+						- Write Data in JSON Format
+						- JavaScript Object Notation (JSON)
+		- The IFormatter Interface provided by .NET to Convert the Object into a specific Format and stored it into Stream
+	- The 'SerializableAttribute' class from System namespace
+		- This is applied on the class which is to be serialized as 'Attribute'
+		- The Attribute is an additional behavioral information of the class (and hence object)
+		- If the class is applied with [Serializable] attribute, then all its 'public properties' can be stored into the stream
+			- Syntax
+				- [Serializable]
+				  public class MyClass {.....PUBLIC PROPERTIES.....}	
+				- NOTE: The Word 'Attribute' will be filteredout by the Compiler
+		- Note: The Class to be used as Attribute MUST eb derived from 'Attribute' class 	
+
 	- Special Data Structure declarations
 		- Tuples (C# 7.0)
 		- Records (C# 9.0)
